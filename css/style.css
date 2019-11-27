@@ -1384,8 +1384,8 @@ a {
 
 .video-play {
     position: absolute;
-    top: 12%;
-    left: -7%;
+    top: 25%;
+    left: -5%;
 }
 
 .video-btn {
@@ -1401,6 +1401,121 @@ a {
     border: none;
     border-radius: 5px;
     background-color: #f7d100;
+}
+
+.professional .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-block {
+    width: 110%;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 33px 0;
+    background-color: #ffffff;
+}
+
+.text-block__head {
+    width: 65%;
+    margin-top: 150px;
+    margin-bottom: 75px;
+    text-align: center;
+    color: #282828;
+    font-family: "Muller-Extra-Bold", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.text-block__items {
+    display: flex;
+}
+
+.text-block__item {
+    width: 230px;
+    margin: 0 20px;
+}
+
+.text-block__item-head {
+    margin-bottom: 25px;
+    color: #1f1815;
+    font-size: 15px;
+    font-family: "Muller-Bold", sans-serif;
+}
+
+.text-block__item-text {
+    color: #1f1815;
+    font-size: 15px;
+    font-family: "Muller", sans-serif;
+}
+
+.text-block .fortinet {
+    margin-left: 80px;
+    margin-right: auto;
+}
+
+.product-block {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: -65px;
+}
+
+.product-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    height: 320px;
+    box-shadow: -13px 10px 62px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.product-item:first-child:before {
+    content: '';
+    position: absolute;
+    top: 13px;
+    left: -17px;
+    width: 17px;
+    height: 168px;
+    background-color: #fdd000;
+}
+
+.product-item:last-child:before {
+    content: '';
+    position: absolute;
+    top: 13px;
+    right: -17px;
+    width: 17px;
+    height: 168px;
+    background-color: #fdd000;
+}
+
+.product-item__product-text {
+    margin: 25px 25px 15px;
+    color: #000000;
+    font-family: "Muller-Bold", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29.33px;
+}
+
+.item-img {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
 }
 
 /* start footer */
