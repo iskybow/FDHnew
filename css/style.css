@@ -1518,7 +1518,76 @@ a {
     border-radius: 10px;
 }
 
-/* start footer */
+.calculator__head {
+    margin: 100px 0 -17px;
+    color: #000000;
+    font-family: "Muller-Extra-Bold", sans-serif;
+    font-size: 52px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.calculator__form {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: 0 auto;
+    padding: 75px 55px 55px;
+    box-shadow: -13px 10px 62px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.calculator__item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.calculator__item_column {
+    flex-direction: column;
+}
+
+.calculator__item_column .calculator__item-head {
+    margin: 0 0 20px;
+    color: #1b1b1b;
+    font-family: "Muller-Bold", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.calculator__slide .irs-min,
+.calculator__slide .irs-max,
+.calculator__slide .irs-single {
+    top: auto;
+    bottom: -23px;
+    background: none;
+    color: #1b1b1b;
+}
+
+.calculator__slide .irs-bar-edge,
+.calculator__slide .irs-bar {
+    height: 8px;
+    background: #f4ad49;
+    border: 1px solid #f4ad49;
+}
+
+.calculator__slide .irs-line {
+    height: 8px;
+    background: #fbf8f1;
+}
+
+.calculator__slide .irs-slider {
+    top: 26px;
+    width: 22px;
+    height: 22px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.22), inset 0 -2px 0 rgba(0, 0, 0, 0.2);
+    background: #aa9699;
+}
+
+     /* start footer */
 .footer-services {
     margin-top: 200px;
     padding-bottom: 75px;

@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Index Page</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet">
+    <link href="libs/normalize.css" rel="stylesheet">
+    <link href="libs/ion.rangeSlider.css" rel="stylesheet">
+    <link href="libs/ion.rangeSlider.skinHTML5.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -596,6 +599,34 @@
             </div>
         </div>
     </section>
+    <section class="calculator">
+        <div class="container">
+            <h2 class="calculator__head">CALCULATOR</h2>
+            <form action="" class="calculator__form">
+                <div class="calculator__item calculator__item_column calculator__slide">
+                    <label class="calculator__item-head">The surface area of the place</label>
+                    <input type="text" id="calc_slider1" value=""/>
+                </div>
+                <div class="calculator__item calculator__item_column">
+                    <label class="calculator__item-head">Connected services</label>
+                    <label class="checkbox">
+                        <input type="checkbox" />
+                        <div class="checkbox__text">Servise 1</div>
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" />
+                        <div class="checkbox__text">Servise 2</div>
+                    </label>
+                </div>
+                <div class="calculator__item">
+                    <label>The surface area of the place</label>
+                </div>
+                <div class="calculator__item">
+                    <label>The surface area of the place</label>
+                </div>
+            </form>
+        </div>
+    </section>
 </main>
 
 <footer class="footer-services footer-index">
@@ -725,6 +756,7 @@
     </div>
 </footer>
 <script src="js/jquery-3.3.1.min.js"></script>
+<script src="libs/2ion.rangeSlider.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
